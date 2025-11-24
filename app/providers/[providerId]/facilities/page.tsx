@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { getProvider } from "../../../data/providers";
-import { FacilityListClient } from "../../../components/FacilityListClient";
+import { getProvider } from "../../../../data/providers";
+import { FacilityListClient } from "../../../../components/FacilityListClient";
 
 export const revalidate = 86400; // 1 day
 

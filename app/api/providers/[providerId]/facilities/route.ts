@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getProvider } from "../../../../data/providers";
+import { getProvider } from "../../../../../data/providers";
 
 export const revalidate = 86400; // 1 day
 

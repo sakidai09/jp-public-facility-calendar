@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
-import { Calendar } from "../../../../components/Calendar";
-import { getProvider } from "../../../../data/providers";
-import { Availability } from "../../../../lib/types";
-import { formatDate } from "../../../../lib/date";
+import { Calendar } from "../../../../../components/Calendar";
+import { getProvider } from "../../../../../data/providers";
+import { Availability } from "../../../../../lib/types";
+import { formatDate } from "../../../../../lib/date";
 
 export const revalidate = 300; // 5 minutes for availability
 
